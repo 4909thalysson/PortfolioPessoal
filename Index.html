@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thalysson O Martins - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        .content {
+            display: none;
+            max-width: 600px;
+            margin: 20px auto;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: left; /* Alinhar texto à esquerda */
+            padding: 20px; /* Adicionar algum espaço interno */
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+        
+        /* Estilo específico para telas menores */
+        @media screen and (max-width: 600px) {
+            .content {
+                padding: 10px; /* Ajuste para telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thalysson O Martins - Portfólio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Sobre-mim" class="nav-link">Sobre Mim</a></li>
+            <li><a href="#Cursos" class="nav-link">Cursos</a></li>
+            <li><a href="#Formacao" class="nav-link">Formação</a></li>
+            <li><a href="#Eventos" class="nav-link">Eventos</a></li>
+            <li><a href="#Contato" class="nav-link">Contato</a></li>
+            <!-- Adicione mais itens conforme necessário -->
+        </ul>
+    </nav>
+
+    <section id="Sobre-mim" class="content">
+        <img src="https://media.licdn.com/dms/image/D4D03AQGUQEP7XjIV3g/profile-displayphoto-shrink_100_100/0/1686100834214?e=1712188800&v=beta&t=gcn56vyaDWeOk1DknnWhqtQRpXJbS71zLRskefrhCD8" alt="Thalysson O Martins - Foto de Perfil" class="profile-picture">
+        <h2>Sobre Mim</h2>
+        <p>Sou um jovem de 20 anos, nascido em Santo Antonio das Missões, RS, em 04/06/2003. Geminiano, curioso, gosto de conversar e sou apaixonado por inovação. Atualmente, curso Sistemas de Informação pela Uniasselvi.</p>
+     <!-- Adicione links para redes sociais -->
+     <div class="social-icons">
+        
+        <a href="https://github.com/4909thalysson" target="_blank" rel="noopener noreferrer">
+            <img src="icone_github.png" alt="GitHub">
+        </a>
+        <!-- Adicione mais links e ícones conforme necessário -->
+    </div>
+    </section>
+
+    <section id="Cursos" class="content">
+        <h2>Cursos</h2>
+        <p>Curso de Informática Megateens - SENAC São Luiz Gonzaga - 72 horas</p>
+        <p>Curso de Auxiliar Administrativo - Sinopse São Luiz Gonzaga - 30 horas</p>
+        <p>Curso de Gestão Empresarial - Sinopse São Luiz Gonzaga - 30 horas</p>
+        <p>Curso de Secretariado - Sinopse São Luiz Gonzaga - 30 horas</p>
+        <p>Curso de Atendimento ao Cliente - Control Z - 30 horas</p>
+    </section>
+
+    <section id="Formacao" class="content">
+        <h2>Formação</h2>
+        <p>Atualmente cursando Sistemas de Informação na Uniasselvi, iniciado em 2022, com previsão de formatura em 2026.</p>
+        <p>Ensino Médio no Instituto Estadual Rui Barbosa, São Luiz Gonzaga, concluído em 2021.</p>
+    </section>
+
+    <section id="Eventos" class="content">
+        <h2>Eventos</h2>
+        <p>Participação no Startup Weekend em São Luiz Gonzaga, com 54 horas de duração, onde pude aprender sobre empreendedorismo e inovação.</p>
+        <p>Participação em uma tutoria em Computação em Nuvem AWS, promovida pelo Sebrae Startups e pela KA Solutions.</p>
+    </section>
+
+    <section id="Contato" class="content">
+        <h2>Contato</h2>
+        <p>Se quiser bater um papo sobre tecnologia, inovação, ou qualquer outro assunto, sinta-se à vontade para entrar em contato!</p>
+        <form action="#" method="post" id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Repita para outras seções conforme necessário -->
+
+    <footer>
+        <p>&copy; 2024 Thalysson O Martins</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
