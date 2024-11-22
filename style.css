@@ -1,92 +1,48 @@
-/*Estilo geral*/
-
-.-body{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-
+/*Estios referente a parte do fundo do site*/
 body{
-
-    background-color: rgb(4, 159, 248);
-    height: 100vh;
-}
-.interface{
-    max-width: 1280px;
-    margin: 0 auto;
-
-}
-.flex{
-    display: flex;
-}
-/*Estilo do cabeçalho*/
-header{
-    padding: 10px 10%;
+    background-color:rgb(18, 18, 49)
 }
 
-header > .interface{
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
-}
-
-header a{
-    color:#7c7c7c;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.2s;
-}
-h2 .titulo{
-    color: #fff;
-    font-size: 34px;
+/*estilos referentes ao inicio do site*/
+section{
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    
 }
-h2 .titulo span{
-  color: aqua;
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
-header a:hover{
-    color: #fff;
+
+.card{
+flex: 1;
+margin: 10px;
+background-color: aliceblue;
+border: 1px solid blanchedalmond;
+border-radius: 5px;
+padding: 5px;
+width: 200px;
+height: 150px;
+text-align: center;
+color: rgb(18, 9, 104);
+font-size: 16px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
     transform: scale(1.05);
+  }
 
-}
-
-header nav ul{
-    list-style-type: none;
-}
-header nav ul li{
-    display: inline-block;
-    padding: 0 40px;
-}
-
-/*ESTILO DO TOPO DO SITE*/
-section.topo-do-site{
-    padding: 40px 4%;
-
-}
-section.topo-do-site.flex{
-align-self: center;
-justify-content: center;
-
-}
-.topo-do-site h1{
-   color:#fff;
-   font-size: 34px;
-   line-height: 30px;
-}
-.topo-do-site  P{
-    color:#fff;
-    margin: 40px 0;
-}
-
-/*ESTILOS DAS ESPECIALIZADAS*/
-section.Especialidades{
-    padding: 40px, 4%;
-    align-items: center;
-}
-
-section.especialidades .especialidades-box{
-    color: #fff;
-    padding: 40px;
-    align-items:center;
-
+article{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
 }
