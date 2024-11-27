@@ -1,8 +1,15 @@
 /*Estios referente a parte do fundo do site*/
 body{
-    background-color:rgb(18, 18, 49)
+    background-color:rgb(18, 18, 49);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align:justify;
 }
-
+ul {
+    list-style:none;
+    margin-bottom: 50px;
+  }
 /*estilos referentes ao inicio do site*/
 section{
     text-align: center;
