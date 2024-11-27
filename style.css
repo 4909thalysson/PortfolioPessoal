@@ -2,7 +2,10 @@
 body{
     background-color:rgb(18, 18, 49)
 }
-
+ul {
+    list-style:none;
+    margin-bottom: 50px;
+  }
 /*estilos referentes ao inicio do site*/
 section{
     text-align: center;
