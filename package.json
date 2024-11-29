@@ -1,9 +1,0 @@
-{
-  "name": "portfolio-pessoal",
-  "version": "1.0.0",
-  "description": "Meu portfólio pessoal",
-  "author": "Thalysson O Martins  <oliveiramartinsthalysson@gmail.com>",
-  "dependencies": {
-    "portfolio-pessoal": "file:"
-  }
-}
