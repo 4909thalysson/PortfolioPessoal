@@ -5,10 +5,18 @@ body{
     font-size: 16px;
     color: rgb(255, 255, 255);
     text-align:justify;
+img{
+  float: left;
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: right;
+}
 }
 ul {
     list-style:none;
-    margin-bottom: 50px;
+    margin-bottom: 155px;
   }
 /*estilos referentes ao inicio do site*/
 section{
@@ -19,24 +27,27 @@ section{
     
 }
 .container{
+    padding: 20px;
+    margin-left: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    color: rgb(16, 23, 78);
+    float: left;
 }
 
-.card{
-flex: 1;
-margin: 10px;
-background-color: aliceblue;
-border: 1px solid blanchedalmond;
-border-radius: 5px;
-padding: 5px;
-width: 200px;
-height: 150px;
-text-align: center;
-color: rgb(18, 9, 104);
-font-size: 16px;
+.card {
+  width: 290px; /* Ajuste o valor para o tamanho desejado */
+  height: 390px;
+  background-color: #f0f0f0; /* Cor de fundo do card */
+  border-radius: 20px; /* Arredonda as bordas */
+  display: flex; /* Permite organizar os elementos dentro do card */
+  flex-direction: column; /* Empilha os elementos verticalmente */
+  justify-content: center; /* Centraliza os elementos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  float: left;
+
+
 }
 
 .card {
@@ -48,6 +59,8 @@ font-size: 16px;
   }
 
 article{
+  margin-top: 490px;
+  margin-bottom: 290px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 20px;
